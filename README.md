@@ -32,7 +32,7 @@ Since we are using [Grunt](https://gruntjs.com/) to manage our site we used the 
 <!-- Making Windows 8.0 / IE 10 happy  -->
 <meta name="msapplication-TileColor" content="#2196f3">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-<!-- Making progressive web app (PWA) happy -->
+<!-- Making progressive web app (PWA) happy - see below for details -->
 <link rel="manifest" href="/site.webmanifest">
 <!-- General happiness  -->
 <meta name="theme-color" content="#2196f3">
@@ -42,14 +42,14 @@ Since we are using [Grunt](https://gruntjs.com/) to manage our site we used the 
 <!-- Making mobile Safari happy -->
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<!-- Making Windows 8.1 and 10 / IE 11 and Edge happy  -->
+<!-- Making Windows 8.1 and 10 / IE 11 and Edge happy - see below for details  -->
 <meta name="msapplication-tooltip" content="Tooltip">
 <meta name="msapplication-config" content="/browserconfig.xml">
 <!-- Making Internet Explorer 5 happy ;) -->
 <link rel="shortcut icon" href="/favicon.ico">
 ```
 
-## site.webmanifest file (Progressive web app manifest)
+## site.webmanifest JSON file (Progressive web app manifest)
 ```json
 {
   "short_name": "RMP",
